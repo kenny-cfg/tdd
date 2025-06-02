@@ -22,4 +22,13 @@ class StringReverserTest {
 
         assertEquals("dlrow olleh", result);
     }
+
+    @Test
+    void when_passingInNull_then_returnsNull() {
+        var reverser = new StringReverser();
+
+        var result = reverser.reverse(null);
+
+        assertNull(result);
+    }
 }
