@@ -13,4 +13,13 @@ class StringReverserTest {
 
         assertEquals("cba", result);
     }
+
+    @Test
+    void when_passingInMultipleWords_then_returnsStringReversed() {
+        var reverser = new StringReverser();
+
+        var result = reverser.reverse("hello world");
+
+        assertEquals("dlrow olleh", result);
+    }
 }
