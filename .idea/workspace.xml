@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de5cc8b0-5fcd-4a1e-9238-dcc42c5c953a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kenny/wenny/tdd/StringReverserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kenny/wenny/tdd/StringReverserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kenny/wenny/tdd/MathUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kenny/wenny/tdd/MathUtilTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.MathUtilTest.executor": "Run",
     "JUnit.StringReverserTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -49,10 +50,34 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/home/kenny/code/code.first.girls/tdd/src/main/java/com/kenny/wenny/tdd/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kenny.wenny.tdd" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MathUtilTest">
+    <configuration name="MathUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kenny.wenny.tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kenny.wenny.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.kenny.wenny.tdd.MathUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringReverserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <extension name="coverage">
@@ -70,6 +95,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MathUtilTest" />
         <item itemvalue="JUnit.StringReverserTest" />
       </list>
     </recent_temporary>
@@ -89,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1748886678947</updated>
-      <workItem from="1748886680800" duration="318000" />
+      <workItem from="1748886680800" duration="1096000" />
     </task>
     <servers />
   </component>
@@ -106,5 +132,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
