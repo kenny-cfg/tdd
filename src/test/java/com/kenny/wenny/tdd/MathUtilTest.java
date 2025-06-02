@@ -2,6 +2,7 @@ package com.kenny.wenny.tdd;
 
 import org.junit.jupiter.api.Test;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MathUtilTest {
@@ -11,7 +12,8 @@ class MathUtilTest {
 
         var actual = MathUtil.add(22, 20);
 
-        assertEquals(expectedSum, actual);
+        assertThat(actual).isEqualTo(expectedSum);
+//        assertEquals(expectedSum, actual);
     }
 
     @Test
@@ -20,6 +22,7 @@ class MathUtilTest {
 
         var actual = MathUtil.add(-42, 0);
 
-        assertEquals(expectedSum, actual);
+        assertThat(actual).isEqualTo(expectedSum);
+//        assertEquals(expectedSum, actual);
     }
 }
